@@ -1,0 +1,4204 @@
+{
+    "config_version": 1,
+    "ip_whitelist": [],
+    "desktop_apps": [
+        {
+            "command_line": "\"C:\\Program Files\\IntelSWTools\\GPA\\gpasample.exe\"",
+            "working_dir": "C:\\Program Files\\IntelSWTools\\GPA\\"
+        }
+    ],
+    "uwp_apps": [],
+    "android_apps": [],
+    "keyboard_shortcuts": {
+        "Change HUD display mode": "CTRL+F1",
+        "Change HUD location": "CTRL+F6",
+        "Change profiled device": "CTRL+F5",
+        "Capture frame": "CTRL+SHIFT+C",
+        "Capture trace": "CTRL+SHIFT+T",
+        "Toggle play/pause": "CTRL+SHIFT+P",
+        "Start/Stop stream capture": "L",
+        "Create keyframe in stream": "K"
+    },
+    "metric_settings": {
+        "enable_application_metrics": true,
+        "hardware_cpu_metrics_enabled": true,
+        "gpu_metrics_sampling_interval": 0,
+        "is_query_based_available": true,
+        "hud_settings": {
+            "custom_position_enabled": false,
+            "x_custom_position": 50,
+            "y_custom_position": 50
+        },
+        "metrics": {
+            "group_type": 0,
+            "CPU": {
+                "group_type": 0,
+                "metrics": [
+                    {
+                        "uri": "emon.processor_time",
+                        "name": "Aggregated CPU Load",
+                        "units": "%",
+                        "desc": "The percentage of time that all the CPU's (aggregated) are busy.",
+                        "flags": 3
+                    },
+                    {
+                        "uri": "cpu.application_time",
+                        "name": "Application Time",
+                        "units": "us",
+                        "desc": "The time elapsed from the application start.",
+                        "flags": 1
+                    },
+                    {
+                        "uri": "emon.cpu_00_frequency",
+                        "name": "CPU 00 Frequency",
+                        "units": "MHz",
+                        "desc": "The frequency of CPU 00.",
+                        "flags": 3
+                    },
+                    {
+                        "uri": "emon.cpu_00_time",
+                        "name": "CPU 00 Load",
+                        "units": "%",
+                        "desc": "The percentage of time that CPU 00 is busy.",
+                        "flags": 3
+                    },
+                    {
+                        "uri": "emon.cpu_01_frequency",
+                        "name": "CPU 01 Frequency",
+                        "units": "MHz",
+                        "desc": "The frequency of CPU 01.",
+                        "flags": 3
+                    },
+                    {
+                        "uri": "emon.cpu_01_time",
+                        "name": "CPU 01 Load",
+                        "units": "%",
+                        "desc": "The percentage of time that CPU 01 is busy.",
+                        "flags": 3
+                    },
+                    {
+                        "uri": "emon.cpu_02_frequency",
+                        "name": "CPU 02 Frequency",
+                        "units": "MHz",
+                        "desc": "The frequency of CPU 02.",
+                        "flags": 3
+                    },
+                    {
+                        "uri": "emon.cpu_02_time",
+                        "name": "CPU 02 Load",
+                        "units": "%",
+                        "desc": "The percentage of time that CPU 02 is busy.",
+                        "flags": 3
+                    },
+                    {
+                        "uri": "emon.cpu_03_frequency",
+                        "name": "CPU 03 Frequency",
+                        "units": "MHz",
+                        "desc": "The frequency of CPU 03.",
+                        "flags": 3
+                    },
+                    {
+                        "uri": "emon.cpu_03_time",
+                        "name": "CPU 03 Load",
+                        "units": "%",
+                        "desc": "The percentage of time that CPU 03 is busy.",
+                        "flags": 3
+                    },
+                    {
+                        "uri": "emon.cpu_04_frequency",
+                        "name": "CPU 04 Frequency",
+                        "units": "MHz",
+                        "desc": "The frequency of CPU 04.",
+                        "flags": 3
+                    },
+                    {
+                        "uri": "emon.cpu_04_time",
+                        "name": "CPU 04 Load",
+                        "units": "%",
+                        "desc": "The percentage of time that CPU 04 is busy.",
+                        "flags": 3
+                    },
+                    {
+                        "uri": "emon.cpu_05_frequency",
+                        "name": "CPU 05 Frequency",
+                        "units": "MHz",
+                        "desc": "The frequency of CPU 05.",
+                        "flags": 3
+                    },
+                    {
+                        "uri": "emon.cpu_05_time",
+                        "name": "CPU 05 Load",
+                        "units": "%",
+                        "desc": "The percentage of time that CPU 05 is busy.",
+                        "flags": 3
+                    },
+                    {
+                        "uri": "cpu.targetapp.processor_time",
+                        "name": "Target App CPU Load",
+                        "units": "%",
+                        "desc": "The percentage of the CPU that the target application utilized.",
+                        "show_in_hud_order": 0,
+                        "flags": 1
+                    }
+                ]
+            },
+            "GPU 0: Intel(R) UHD Graphics 630": {
+                "group_type": 1,
+                "current_time_set": 0,
+                "time_sets": [
+                    {
+                        "id": 0,
+                        "name": "RenderBasic"
+                    },
+                    {
+                        "id": 1,
+                        "name": "ComputeBasic"
+                    },
+                    {
+                        "id": 2,
+                        "name": "RenderPipeProfile"
+                    },
+                    {
+                        "id": 3,
+                        "name": "MemoryReads"
+                    },
+                    {
+                        "id": 4,
+                        "name": "MemoryWrites"
+                    },
+                    {
+                        "id": 5,
+                        "name": "ComputeExtended"
+                    },
+                    {
+                        "id": 6,
+                        "name": "ComputeL3Cache"
+                    },
+                    {
+                        "id": 7,
+                        "name": "HDCAndSF"
+                    },
+                    {
+                        "id": 8,
+                        "name": "L3_1"
+                    },
+                    {
+                        "id": 9,
+                        "name": "L3_2"
+                    },
+                    {
+                        "id": 10,
+                        "name": "L3_3"
+                    },
+                    {
+                        "id": 11,
+                        "name": "RasterizerAndPixelBackend"
+                    },
+                    {
+                        "id": 12,
+                        "name": "Sampler"
+                    },
+                    {
+                        "id": 13,
+                        "name": "TDL_1"
+                    },
+                    {
+                        "id": 14,
+                        "name": "TDL_2"
+                    },
+                    {
+                        "id": 15,
+                        "name": "ComputeExtra"
+                    },
+                    {
+                        "id": 16,
+                        "name": "VMEPipe"
+                    },
+                    {
+                        "id": 17,
+                        "name": "GpuBusyness"
+                    },
+                    {
+                        "id": 18,
+                        "name": "PMA_Stall"
+                    },
+                    {
+                        "id": 19,
+                        "name": "AsyncCompute"
+                    }
+                ],
+                "current_query_set": 0,
+                "query_sets": [
+                    {
+                        "id": 0,
+                        "name": "RenderBasic"
+                    },
+                    {
+                        "id": 1,
+                        "name": "ComputeBasic"
+                    },
+                    {
+                        "id": 2,
+                        "name": "RenderPipeProfile"
+                    },
+                    {
+                        "id": 3,
+                        "name": "MemoryReads"
+                    },
+                    {
+                        "id": 4,
+                        "name": "MemoryWrites"
+                    },
+                    {
+                        "id": 5,
+                        "name": "ComputeExtended"
+                    },
+                    {
+                        "id": 6,
+                        "name": "ComputeL3Cache"
+                    },
+                    {
+                        "id": 7,
+                        "name": "HDCAndSF"
+                    },
+                    {
+                        "id": 8,
+                        "name": "L3_1"
+                    },
+                    {
+                        "id": 9,
+                        "name": "L3_2"
+                    },
+                    {
+                        "id": 10,
+                        "name": "L3_3"
+                    },
+                    {
+                        "id": 11,
+                        "name": "RasterizerAndPixelBackend"
+                    },
+                    {
+                        "id": 12,
+                        "name": "Sampler"
+                    },
+                    {
+                        "id": 13,
+                        "name": "TDL_1"
+                    },
+                    {
+                        "id": 14,
+                        "name": "TDL_2"
+                    },
+                    {
+                        "id": 15,
+                        "name": "ComputeExtra"
+                    },
+                    {
+                        "id": 16,
+                        "name": "VMEPipe"
+                    },
+                    {
+                        "id": 17,
+                        "name": "GpuBusyness"
+                    },
+                    {
+                        "id": 19,
+                        "name": "PMA_Stall"
+                    },
+                    {
+                        "id": 20,
+                        "name": "AsyncCompute"
+                    }
+                ],
+                "metrics": [
+                    {
+                        "uri": "gpu0.intel.any_ring_busy",
+                        "name": "AnyRingBusy",
+                        "units": "%",
+                        "desc": "The percentage of time when any command streamer was busy.",
+                        "flags": 1,
+                        "application_counter_sets": [
+                            {
+                                "id": 17
+                            }
+                        ]
+                    },
+                    {
+                        "uri": "gpu0.intel.blitter_busy",
+                        "name": "Blitter Ring Busy",
+                        "units": "%",
+                        "desc": "The percentage of time when blitter command streamer was busy.",
+                        "flags": 1,
+                        "application_counter_sets": [
+                            {
+                                "id": 17
+                            }
+                        ]
+                    },
+                    {
+                        "uri": "gpu0.intel.gpu_busy",
+                        "name": "GPU Busy",
+                        "units": "%",
+                        "desc": "The percentage of time in which the GPU has been processing GPU commands.",
+                        "show_in_hud_order": 1,
+                        "flags": 3,
+                        "application_counter_sets": [
+                            {
+                                "id": 0
+                            },
+                            {
+                                "id": 1
+                            },
+                            {
+                                "id": 2
+                            },
+                            {
+                                "id": 3
+                            },
+                            {
+                                "id": 4
+                            },
+                            {
+                                "id": 6
+                            },
+                            {
+                                "id": 7
+                            },
+                            {
+                                "id": 8
+                            },
+                            {
+                                "id": 9
+                            },
+                            {
+                                "id": 10
+                            },
+                            {
+                                "id": 11
+                            },
+                            {
+                                "id": 12
+                            },
+                            {
+                                "id": 13
+                            },
+                            {
+                                "id": 14
+                            },
+                            {
+                                "id": 16
+                            },
+                            {
+                                "id": 19
+                            }
+                        ],
+                        "query_counter_sets": [
+                            {
+                                "id": 0
+                            },
+                            {
+                                "id": 1
+                            },
+                            {
+                                "id": 2
+                            },
+                            {
+                                "id": 3
+                            },
+                            {
+                                "id": 4
+                            },
+                            {
+                                "id": 6
+                            },
+                            {
+                                "id": 7
+                            },
+                            {
+                                "id": 8
+                            },
+                            {
+                                "id": 9
+                            },
+                            {
+                                "id": 10
+                            },
+                            {
+                                "id": 11
+                            },
+                            {
+                                "id": 12
+                            },
+                            {
+                                "id": 13
+                            },
+                            {
+                                "id": 14
+                            },
+                            {
+                                "id": 20
+                            }
+                        ]
+                    },
+                    {
+                        "uri": "gpu0.intel.gpu_core_clocks",
+                        "name": "GPU Core Clocks",
+                        "units": "cycles",
+                        "desc": "The total number of GPU core clocks elapsed during the measurement.",
+                        "flags": 2,
+                        "query_counter_sets": [
+                            {
+                                "id": 0
+                            },
+                            {
+                                "id": 1
+                            },
+                            {
+                                "id": 2
+                            },
+                            {
+                                "id": 3
+                            },
+                            {
+                                "id": 4
+                            },
+                            {
+                                "id": 6
+                            },
+                            {
+                                "id": 7
+                            },
+                            {
+                                "id": 8
+                            },
+                            {
+                                "id": 9
+                            },
+                            {
+                                "id": 10
+                            },
+                            {
+                                "id": 11
+                            },
+                            {
+                                "id": 12
+                            },
+                            {
+                                "id": 13
+                            },
+                            {
+                                "id": 14
+                            },
+                            {
+                                "id": 15
+                            },
+                            {
+                                "id": 17
+                            },
+                            {
+                                "id": 19
+                            },
+                            {
+                                "id": 20
+                            }
+                        ]
+                    },
+                    {
+                        "uri": "gpu0.intel.duration",
+                        "name": "GPU Duration",
+                        "units": "us",
+                        "desc": "Time elapsed on the GPU during the measurement.",
+                        "show_in_hud_order": 2,
+                        "flags": 2,
+                        "query_counter_sets": [
+                            {
+                                "id": 0
+                            },
+                            {
+                                "id": 1
+                            },
+                            {
+                                "id": 2
+                            },
+                            {
+                                "id": 3
+                            },
+                            {
+                                "id": 4
+                            },
+                            {
+                                "id": 6
+                            },
+                            {
+                                "id": 7
+                            },
+                            {
+                                "id": 8
+                            },
+                            {
+                                "id": 9
+                            },
+                            {
+                                "id": 10
+                            },
+                            {
+                                "id": 11
+                            },
+                            {
+                                "id": 12
+                            },
+                            {
+                                "id": 13
+                            },
+                            {
+                                "id": 14
+                            },
+                            {
+                                "id": 15
+                            },
+                            {
+                                "id": 17
+                            },
+                            {
+                                "id": 19
+                            },
+                            {
+                                "id": 20
+                            }
+                        ]
+                    },
+                    {
+                        "uri": "gpu0.intel.avg_gpu_core_frequency_mhz",
+                        "name": "GPU Frequency",
+                        "units": "MHz",
+                        "desc": "Average GPU Core Frequency in the measurement.",
+                        "flags": 3,
+                        "application_counter_sets": [
+                            {
+                                "id": 0
+                            },
+                            {
+                                "id": 1
+                            },
+                            {
+                                "id": 2
+                            },
+                            {
+                                "id": 3
+                            },
+                            {
+                                "id": 4
+                            },
+                            {
+                                "id": 5
+                            },
+                            {
+                                "id": 6
+                            },
+                            {
+                                "id": 7
+                            },
+                            {
+                                "id": 8
+                            },
+                            {
+                                "id": 9
+                            },
+                            {
+                                "id": 10
+                            },
+                            {
+                                "id": 11
+                            },
+                            {
+                                "id": 12
+                            },
+                            {
+                                "id": 13
+                            },
+                            {
+                                "id": 14
+                            },
+                            {
+                                "id": 15
+                            },
+                            {
+                                "id": 16
+                            },
+                            {
+                                "id": 17
+                            },
+                            {
+                                "id": 18
+                            },
+                            {
+                                "id": 19
+                            }
+                        ],
+                        "query_counter_sets": [
+                            {
+                                "id": 0
+                            },
+                            {
+                                "id": 1
+                            },
+                            {
+                                "id": 2
+                            },
+                            {
+                                "id": 3
+                            },
+                            {
+                                "id": 4
+                            },
+                            {
+                                "id": 6
+                            },
+                            {
+                                "id": 7
+                            },
+                            {
+                                "id": 8
+                            },
+                            {
+                                "id": 9
+                            },
+                            {
+                                "id": 10
+                            },
+                            {
+                                "id": 11
+                            },
+                            {
+                                "id": 12
+                            },
+                            {
+                                "id": 13
+                            },
+                            {
+                                "id": 14
+                            },
+                            {
+                                "id": 15
+                            },
+                            {
+                                "id": 17
+                            },
+                            {
+                                "id": 19
+                            },
+                            {
+                                "id": 20
+                            }
+                        ]
+                    },
+                    {
+                        "uri": "gpu0.intel.render_busy",
+                        "name": "Render Ring Busy",
+                        "units": "%",
+                        "desc": "The percentage of time when render command streamer was busy.",
+                        "flags": 1,
+                        "application_counter_sets": [
+                            {
+                                "id": 17
+                            }
+                        ]
+                    },
+                    {
+                        "uri": "gpu0.intel.vdbox0_busy",
+                        "name": "Vdbox0 Ring Busy",
+                        "units": "%",
+                        "desc": "The percentage of time when Vdbox0 command streamer was busy.",
+                        "flags": 1,
+                        "application_counter_sets": [
+                            {
+                                "id": 17
+                            }
+                        ]
+                    },
+                    {
+                        "uri": "gpu0.intel.vebox_busy",
+                        "name": "Vebox Ring Busy",
+                        "units": "%",
+                        "desc": "The percentage of time when vebox command streamer was busy.",
+                        "flags": 1,
+                        "application_counter_sets": [
+                            {
+                                "id": 17
+                            }
+                        ]
+                    }
+                ],
+                "3D Pipe": {
+                    "group_type": 0,
+                    "metrics": [
+                        {
+                            "uri": "gpu0.intel.psoutput0_available",
+                            "name": "Slice0 PS Output Available",
+                            "units": "%",
+                            "desc": "The percentage of time in which slice0 PS output is available",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 11
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 11
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.pixel_values0_ready",
+                            "name": "Slice0 Pixel Values Ready",
+                            "units": "%",
+                            "desc": "The percentage of time in which slice0 pixel values are ready",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 11
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 11
+                                }
+                            ]
+                        }
+                    ],
+                    "Output Merger": {
+                        "group_type": 0,
+                        "metrics": [
+                            {
+                                "uri": "gpu0.intel.samples_blended",
+                                "name": "Samples Blended",
+                                "units": "pixels",
+                                "desc": "The total number of blended samples or pixels written to all render targets.",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 2
+                                    },
+                                    {
+                                        "id": 3
+                                    },
+                                    {
+                                        "id": 4
+                                    },
+                                    {
+                                        "id": 6
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 2
+                                    },
+                                    {
+                                        "id": 3
+                                    },
+                                    {
+                                        "id": 4
+                                    },
+                                    {
+                                        "id": 6
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.samples_written",
+                                "name": "Samples Written",
+                                "units": "pixels",
+                                "desc": "The total number of samples or pixels written to all render targets.",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 2
+                                    },
+                                    {
+                                        "id": 3
+                                    },
+                                    {
+                                        "id": 4
+                                    },
+                                    {
+                                        "id": 6
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 2
+                                    },
+                                    {
+                                        "id": 3
+                                    },
+                                    {
+                                        "id": 4
+                                    },
+                                    {
+                                        "id": 6
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Pixel Shader": {
+                        "group_type": 0,
+                        "metrics": [
+                            {
+                                "uri": "gpu0.intel.samples_killed_in_ps",
+                                "name": "Samples Killed in PS",
+                                "units": "pixels",
+                                "desc": "The total number of samples or pixels dropped in pixel shaders.",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 2
+                                    },
+                                    {
+                                        "id": 3
+                                    },
+                                    {
+                                        "id": 4
+                                    },
+                                    {
+                                        "id": 6
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 2
+                                    },
+                                    {
+                                        "id": 3
+                                    },
+                                    {
+                                        "id": 4
+                                    },
+                                    {
+                                        "id": 6
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Rasterizer": {
+                        "group_type": 0,
+                        "metrics": [
+                            {
+                                "uri": "gpu0.intel.rasterized_pixels",
+                                "name": "Rasterized Pixels",
+                                "units": "pixels",
+                                "desc": "The total number of rasterized pixels.",
+                                "flags": 2,
+                                "query_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 2
+                                    },
+                                    {
+                                        "id": 3
+                                    },
+                                    {
+                                        "id": 4
+                                    },
+                                    {
+                                        "id": 6
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    }
+                                ]
+                            }
+                        ],
+                        "Early Depth Test": {
+                            "group_type": 0,
+                            "metrics": [
+                                {
+                                    "uri": "gpu0.intel.early_depth_test_fails",
+                                    "name": "Early Depth Test Fails",
+                                    "units": "pixels",
+                                    "desc": "The total number of pixels dropped on early depth test.",
+                                    "flags": 2,
+                                    "query_counter_sets": [
+                                        {
+                                            "id": 0
+                                        },
+                                        {
+                                            "id": 1
+                                        },
+                                        {
+                                            "id": 2
+                                        },
+                                        {
+                                            "id": 3
+                                        },
+                                        {
+                                            "id": 4
+                                        },
+                                        {
+                                            "id": 6
+                                        },
+                                        {
+                                            "id": 7
+                                        },
+                                        {
+                                            "id": 8
+                                        },
+                                        {
+                                            "id": 9
+                                        },
+                                        {
+                                            "id": 10
+                                        },
+                                        {
+                                            "id": 11
+                                        },
+                                        {
+                                            "id": 12
+                                        },
+                                        {
+                                            "id": 13
+                                        },
+                                        {
+                                            "id": 14
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Hi-Depth Test": {
+                            "group_type": 0,
+                            "metrics": [
+                                {
+                                    "uri": "gpu0.intel.hi_depth_test_fails",
+                                    "name": "Early Hi-Depth Test Fails",
+                                    "units": "pixels",
+                                    "desc": "The total number of pixels dropped on early hierarchical depth test.",
+                                    "flags": 2,
+                                    "query_counter_sets": [
+                                        {
+                                            "id": 0
+                                        },
+                                        {
+                                            "id": 1
+                                        },
+                                        {
+                                            "id": 2
+                                        },
+                                        {
+                                            "id": 3
+                                        },
+                                        {
+                                            "id": 4
+                                        },
+                                        {
+                                            "id": 6
+                                        },
+                                        {
+                                            "id": 7
+                                        },
+                                        {
+                                            "id": 8
+                                        },
+                                        {
+                                            "id": 9
+                                        },
+                                        {
+                                            "id": 10
+                                        },
+                                        {
+                                            "id": 11
+                                        },
+                                        {
+                                            "id": 12
+                                        },
+                                        {
+                                            "id": 13
+                                        },
+                                        {
+                                            "id": 14
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "Strip-Fans": {
+                        "group_type": 0,
+                        "metrics": [
+                            {
+                                "uri": "gpu0.intel.poly_data_ready",
+                                "name": "Polygon Data Ready",
+                                "units": "%",
+                                "desc": "The percentage of time in which geometry pipeline output is ready",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 7
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 7
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "EU Array": {
+                    "group_type": 0,
+                    "metrics": [
+                        {
+                            "uri": "gpu0.intel.cs_fpu0_active",
+                            "name": "CS FPU0 Pipe Active",
+                            "units": "%",
+                            "desc": "The percentage of time in which EU FPU0 pipeline was actively processing a compute shader instruction.",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 19
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 20
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.cs_fpu1_active",
+                            "name": "CS FPU1 Pipe Active",
+                            "units": "%",
+                            "desc": "The percentage of time in which EU FPU1 pipeline was actively processing a compute shader instruction.",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 19
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 20
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.eu_avg_ipc_rate",
+                            "name": "EU AVG IPC Rate",
+                            "units": "",
+                            "desc": "The average rate of IPC calculated for 2 FPU pipelines.",
+                            "flags": 1,
+                            "application_counter_sets": [
+                                {
+                                    "id": 1
+                                },
+                                {
+                                    "id": 5
+                                },
+                                {
+                                    "id": 6
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.eu_active",
+                            "name": "EU Active",
+                            "units": "%",
+                            "desc": "The percentage of time in which the Execution Units were actively processing.",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 0
+                                },
+                                {
+                                    "id": 1
+                                },
+                                {
+                                    "id": 2
+                                },
+                                {
+                                    "id": 3
+                                },
+                                {
+                                    "id": 4
+                                },
+                                {
+                                    "id": 5
+                                },
+                                {
+                                    "id": 6
+                                },
+                                {
+                                    "id": 7
+                                },
+                                {
+                                    "id": 8
+                                },
+                                {
+                                    "id": 9
+                                },
+                                {
+                                    "id": 10
+                                },
+                                {
+                                    "id": 11
+                                },
+                                {
+                                    "id": 12
+                                },
+                                {
+                                    "id": 13
+                                },
+                                {
+                                    "id": 14
+                                },
+                                {
+                                    "id": 16
+                                },
+                                {
+                                    "id": 19
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 0
+                                },
+                                {
+                                    "id": 1
+                                },
+                                {
+                                    "id": 2
+                                },
+                                {
+                                    "id": 3
+                                },
+                                {
+                                    "id": 4
+                                },
+                                {
+                                    "id": 6
+                                },
+                                {
+                                    "id": 7
+                                },
+                                {
+                                    "id": 8
+                                },
+                                {
+                                    "id": 9
+                                },
+                                {
+                                    "id": 10
+                                },
+                                {
+                                    "id": 11
+                                },
+                                {
+                                    "id": 12
+                                },
+                                {
+                                    "id": 13
+                                },
+                                {
+                                    "id": 14
+                                },
+                                {
+                                    "id": 20
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.eu_stall",
+                            "name": "EU Stall",
+                            "units": "%",
+                            "desc": "The percentage of time in which the Execution Units were stalled.",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 0
+                                },
+                                {
+                                    "id": 1
+                                },
+                                {
+                                    "id": 2
+                                },
+                                {
+                                    "id": 3
+                                },
+                                {
+                                    "id": 4
+                                },
+                                {
+                                    "id": 5
+                                },
+                                {
+                                    "id": 6
+                                },
+                                {
+                                    "id": 7
+                                },
+                                {
+                                    "id": 8
+                                },
+                                {
+                                    "id": 9
+                                },
+                                {
+                                    "id": 10
+                                },
+                                {
+                                    "id": 11
+                                },
+                                {
+                                    "id": 12
+                                },
+                                {
+                                    "id": 13
+                                },
+                                {
+                                    "id": 14
+                                },
+                                {
+                                    "id": 16
+                                },
+                                {
+                                    "id": 19
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 0
+                                },
+                                {
+                                    "id": 1
+                                },
+                                {
+                                    "id": 2
+                                },
+                                {
+                                    "id": 3
+                                },
+                                {
+                                    "id": 4
+                                },
+                                {
+                                    "id": 6
+                                },
+                                {
+                                    "id": 7
+                                },
+                                {
+                                    "id": 8
+                                },
+                                {
+                                    "id": 9
+                                },
+                                {
+                                    "id": 10
+                                },
+                                {
+                                    "id": 11
+                                },
+                                {
+                                    "id": 12
+                                },
+                                {
+                                    "id": 13
+                                },
+                                {
+                                    "id": 14
+                                },
+                                {
+                                    "id": 20
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.eu_thread_occupancy",
+                            "name": "EU Thread Occupancy",
+                            "units": "%",
+                            "desc": "The percentage of time in which hardware threads occupied EUs.",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 1
+                                },
+                                {
+                                    "id": 5
+                                },
+                                {
+                                    "id": 16
+                                },
+                                {
+                                    "id": 19
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 1
+                                },
+                                {
+                                    "id": 20
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.hs_ds_gs_fpu0_active",
+                            "name": "HS/DS/GS FPU0 Pipe Active",
+                            "units": "%",
+                            "desc": "HS/DS/GS FPU0 Pipe Active",
+                            "flags": 1,
+                            "application_counter_sets": [
+                                {
+                                    "id": 19
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.hs_ds_gs_fpu1_active",
+                            "name": "HS/DS/GS FPU1 Pipe Active",
+                            "units": "%",
+                            "desc": "HS/DS/GS FPU1 Pipe Active",
+                            "flags": 1,
+                            "application_counter_sets": [
+                                {
+                                    "id": 19
+                                }
+                            ]
+                        }
+                    ],
+                    "Compute Shader": {
+                        "group_type": 0,
+                        "metrics": [
+                            {
+                                "uri": "gpu0.intel.cs_threads",
+                                "name": "CS Threads Dispatched",
+                                "units": "threads",
+                                "desc": "The total number of compute shader hardware threads dispatched.",
+                                "flags": 2,
+                                "query_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 2
+                                    },
+                                    {
+                                        "id": 3
+                                    },
+                                    {
+                                        "id": 4
+                                    },
+                                    {
+                                        "id": 6
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    },
+                                    {
+                                        "id": 20
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Domain Shader": {
+                        "group_type": 0,
+                        "metrics": [
+                            {
+                                "uri": "gpu0.intel.ds_threads",
+                                "name": "DS Threads Dispatched",
+                                "units": "threads",
+                                "desc": "The total number of domain shader hardware threads dispatched.",
+                                "flags": 2,
+                                "query_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 2
+                                    },
+                                    {
+                                        "id": 3
+                                    },
+                                    {
+                                        "id": 4
+                                    },
+                                    {
+                                        "id": 6
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    },
+                                    {
+                                        "id": 20
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Geometry Shader": {
+                        "group_type": 0,
+                        "metrics": [
+                            {
+                                "uri": "gpu0.intel.gs_threads",
+                                "name": "GS Threads Dispatched",
+                                "units": "threads",
+                                "desc": "The total number of geometry shader hardware threads dispatched.",
+                                "flags": 2,
+                                "query_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 2
+                                    },
+                                    {
+                                        "id": 3
+                                    },
+                                    {
+                                        "id": 4
+                                    },
+                                    {
+                                        "id": 6
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    },
+                                    {
+                                        "id": 20
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Hull Shader": {
+                        "group_type": 0,
+                        "metrics": [
+                            {
+                                "uri": "gpu0.intel.hs_threads",
+                                "name": "HS Threads Dispatched",
+                                "units": "threads",
+                                "desc": "The total number of hull shader hardware threads dispatched.",
+                                "flags": 2,
+                                "query_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 2
+                                    },
+                                    {
+                                        "id": 3
+                                    },
+                                    {
+                                        "id": 4
+                                    },
+                                    {
+                                        "id": 6
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    },
+                                    {
+                                        "id": 20
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Pipes": {
+                        "group_type": 0,
+                        "metrics": [
+                            {
+                                "uri": "gpu0.intel.eu_fpu_both_active",
+                                "name": "EU Both FPU Pipes Active",
+                                "units": "%",
+                                "desc": "The percentage of time in which both EU FPU pipelines were actively processing.",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 5
+                                    },
+                                    {
+                                        "id": 6
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    },
+                                    {
+                                        "id": 16
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 6
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.fpu0_active",
+                                "name": "EU FPU0 Pipe Active",
+                                "units": "%",
+                                "desc": "The percentage of time in which EU FPU0 pipeline was actively processing.",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 5
+                                    },
+                                    {
+                                        "id": 6
+                                    },
+                                    {
+                                        "id": 19
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 6
+                                    },
+                                    {
+                                        "id": 20
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.fpu1_active",
+                                "name": "EU FPU1 Pipe Active",
+                                "units": "%",
+                                "desc": "The percentage of time in which EU FPU1 pipeline was actively processing.",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 5
+                                    },
+                                    {
+                                        "id": 6
+                                    },
+                                    {
+                                        "id": 15
+                                    },
+                                    {
+                                        "id": 19
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 6
+                                    },
+                                    {
+                                        "id": 15
+                                    },
+                                    {
+                                        "id": 20
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.eu_send_active",
+                                "name": "EU Send Pipe Active",
+                                "units": "%",
+                                "desc": "The percentage of time in which EU send pipeline was actively processing.",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 5
+                                    },
+                                    {
+                                        "id": 6
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 6
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Pixel Shader": {
+                        "group_type": 0,
+                        "metrics": [
+                            {
+                                "uri": "gpu0.intel.ps_fpu0_active",
+                                "name": "PS FPU0 Pipe Active",
+                                "units": "%",
+                                "desc": "The percentage of time in which EU FPU0 pipeline was actively processing a pixel shader instruction.",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    },
+                                    {
+                                        "id": 19
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    },
+                                    {
+                                        "id": 20
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.ps_fpu1_active",
+                                "name": "PS FPU1 Pipe Active",
+                                "units": "%",
+                                "desc": "The percentage of time in which EU FPU1 pipeline was actively processing a pixel shader instruction.",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    },
+                                    {
+                                        "id": 19
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    },
+                                    {
+                                        "id": 20
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.ps_send_active",
+                                "name": "PS Send Pipeline Active",
+                                "units": "%",
+                                "desc": "The percentage of time in which EU send pipeline was actively processing a pixel shader instruction.",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.ps_threads",
+                                "name": "PS Threads Dispatched",
+                                "units": "threads",
+                                "desc": "The total number of pixel shader hardware threads dispatched.",
+                                "flags": 2,
+                                "query_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 2
+                                    },
+                                    {
+                                        "id": 3
+                                    },
+                                    {
+                                        "id": 4
+                                    },
+                                    {
+                                        "id": 6
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    },
+                                    {
+                                        "id": 20
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Vertex Shader": {
+                        "group_type": 0,
+                        "metrics": [
+                            {
+                                "uri": "gpu0.intel.vs_fpu0_active",
+                                "name": "VS FPU0 Pipe Active",
+                                "units": "%",
+                                "desc": "The percentage of time in which EU FPU0 pipeline was actively processing a vertex shader instruction.",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    },
+                                    {
+                                        "id": 19
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    },
+                                    {
+                                        "id": 20
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.vs_fpu1_active",
+                                "name": "VS FPU1 Pipe Active",
+                                "units": "%",
+                                "desc": "The percentage of time in which EU FPU1 pipeline was actively processing a vertex shader instruction.",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    },
+                                    {
+                                        "id": 19
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    },
+                                    {
+                                        "id": 20
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.vs_send_active",
+                                "name": "VS Send Pipe Active",
+                                "units": "%",
+                                "desc": "The percentage of time in which EU send pipeline was actively processing a vertex shader instruction.",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.vs_threads",
+                                "name": "VS Threads Dispatched",
+                                "units": "threads",
+                                "desc": "The total number of vertex shader hardware threads dispatched.",
+                                "flags": 2,
+                                "query_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 2
+                                    },
+                                    {
+                                        "id": 3
+                                    },
+                                    {
+                                        "id": 4
+                                    },
+                                    {
+                                        "id": 6
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    },
+                                    {
+                                        "id": 20
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "GTI": {
+                    "group_type": 0,
+                    "metrics": [
+                        {
+                            "uri": "gpu0.intel.gti_read_throughput",
+                            "name": "GTI Read Throughput",
+                            "units": "bytes",
+                            "desc": "The total number of GPU memory bytes read from GTI.",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 0
+                                },
+                                {
+                                    "id": 1
+                                },
+                                {
+                                    "id": 6
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 0
+                                },
+                                {
+                                    "id": 1
+                                },
+                                {
+                                    "id": 6
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.gti_write_throughput",
+                            "name": "GTI Write Throughput",
+                            "units": "bytes",
+                            "desc": "The total number of GPU memory bytes written to GTI.",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 0
+                                },
+                                {
+                                    "id": 1
+                                },
+                                {
+                                    "id": 6
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 0
+                                },
+                                {
+                                    "id": 1
+                                },
+                                {
+                                    "id": 6
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.gti_memory_reads",
+                            "name": "GtiMemoryReads",
+                            "units": "messages",
+                            "desc": "The total number of GTI memory reads.",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 3
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 3
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.gti_memory_writes",
+                            "name": "GtiMemoryWrites",
+                            "units": "messages",
+                            "desc": "The total number of GTI memory writes.",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 4
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 4
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.gtrequest_queue_full",
+                            "name": "SQ is full",
+                            "units": "%",
+                            "desc": "The percentage of time when SQ is filled above a threshold (usually 48 entries)",
+                            "flags": 2,
+                            "query_counter_sets": [
+                                {
+                                    "id": 7
+                                },
+                                {
+                                    "id": 8
+                                },
+                                {
+                                    "id": 9
+                                },
+                                {
+                                    "id": 10
+                                },
+                                {
+                                    "id": 11
+                                },
+                                {
+                                    "id": 12
+                                },
+                                {
+                                    "id": 13
+                                },
+                                {
+                                    "id": 14
+                                }
+                            ]
+                        }
+                    ],
+                    "3D Pipe": {
+                        "group_type": 0,
+                        "Command Streamer": {
+                            "group_type": 0,
+                            "metrics": [
+                                {
+                                    "uri": "gpu0.intel.gti_cmd_streamer_memory_reads",
+                                    "name": "GtiCmdStreamerMemoryReads",
+                                    "units": "messages",
+                                    "desc": "The total number of GTI memory reads from Command Streamer.",
+                                    "flags": 2,
+                                    "query_counter_sets": [
+                                        {
+                                            "id": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "uri": "gpu0.intel.gti_cmd_streamer_memory_writes",
+                                    "name": "GtiCmdStreamerMemoryWrites",
+                                    "units": "messages",
+                                    "desc": "The total number of GTI memory writes from Command Streamer.",
+                                    "flags": 2,
+                                    "query_counter_sets": [
+                                        {
+                                            "id": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Resource Streamer": {
+                            "group_type": 0,
+                            "metrics": [
+                                {
+                                    "uri": "gpu0.intel.gti_rs_memory_reads",
+                                    "name": "GtiRsMemoryReads",
+                                    "units": "messages",
+                                    "desc": "The total number of GTI memory reads from Resource Streamer.",
+                                    "flags": 2,
+                                    "query_counter_sets": [
+                                        {
+                                            "id": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Stream Output": {
+                            "group_type": 0,
+                            "metrics": [
+                                {
+                                    "uri": "gpu0.intel.gti_so_memory_writes",
+                                    "name": "GtiSoMemoryWrites",
+                                    "units": "messages",
+                                    "desc": "The total number of GTI memory writes from Stream Output.",
+                                    "flags": 2,
+                                    "query_counter_sets": [
+                                        {
+                                            "id": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Vertex Fetch": {
+                            "group_type": 0,
+                            "metrics": [
+                                {
+                                    "uri": "gpu0.intel.gti_vf_memory_reads",
+                                    "name": "GtiVfMemoryReads",
+                                    "units": "messages",
+                                    "desc": "The total number of GTI memory reads from Vertex Fetch.",
+                                    "flags": 2,
+                                    "query_counter_sets": [
+                                        {
+                                            "id": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "Color Cache": {
+                        "group_type": 0,
+                        "metrics": [
+                            {
+                                "uri": "gpu0.intel.gti_msc_memory_reads",
+                                "name": "GtiMscMemoryReads",
+                                "units": "messages",
+                                "desc": "The total number of GTI memory reads from Multisampling Color Cache (Multisampling Color Cache misses).",
+                                "flags": 2,
+                                "query_counter_sets": [
+                                    {
+                                        "id": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.gti_msc_memory_writes",
+                                "name": "GtiMscMemoryWrites",
+                                "units": "messages",
+                                "desc": "The total number of GTI memory writes from Multisampling Color Cache (Multisampling Color Cache invalidations).",
+                                "flags": 2,
+                                "query_counter_sets": [
+                                    {
+                                        "id": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.gti_rcc_memory_reads",
+                                "name": "GtiRccMemoryReads",
+                                "units": "messages",
+                                "desc": "The total number of GTI memory reads from Render Color Cache (Render Color Cache misses).",
+                                "flags": 2,
+                                "query_counter_sets": [
+                                    {
+                                        "id": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.gti_rcc_memory_writes",
+                                "name": "GtiRccMemoryWrites",
+                                "units": "messages",
+                                "desc": "The total number of GTI memory writes from Render Color Cache (Render Color Cache invalidations).",
+                                "flags": 2,
+                                "query_counter_sets": [
+                                    {
+                                        "id": 4
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Depth Cache": {
+                        "group_type": 0,
+                        "metrics": [
+                            {
+                                "uri": "gpu0.intel.gti_hiz_memory_reads",
+                                "name": "GtiHizMemoryReads",
+                                "units": "messages",
+                                "desc": "The total number of GTI memory reads from Hierarchical Depth Cache (Hi-Depth Cache misses).",
+                                "flags": 2,
+                                "query_counter_sets": [
+                                    {
+                                        "id": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.gti_hiz_memory_writes",
+                                "name": "GtiHizMemoryWrites",
+                                "units": "messages",
+                                "desc": "The total number of GTI memory writes from Hierarchical Depth Cache.",
+                                "flags": 2,
+                                "query_counter_sets": [
+                                    {
+                                        "id": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.gti_rcz_memory_reads",
+                                "name": "GtiRczMemoryReads",
+                                "units": "messages",
+                                "desc": "The total number of GTI memory reads from Render Depth Cache (Render Depth Cache misses).",
+                                "flags": 2,
+                                "query_counter_sets": [
+                                    {
+                                        "id": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.gti_rcz_memory_writes",
+                                "name": "GtiRczMemoryWrites",
+                                "units": "messages",
+                                "desc": "The total number of GTI memory writes from Render Depth Cache.",
+                                "flags": 2,
+                                "query_counter_sets": [
+                                    {
+                                        "id": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.gti_stc_memory_reads",
+                                "name": "GtiStcMemoryReads",
+                                "units": "messages",
+                                "desc": "The total number of GTI memory reads from Stencil Cache (Stencil Cache misses).",
+                                "flags": 2,
+                                "query_counter_sets": [
+                                    {
+                                        "id": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.gti_stc_memory_writes",
+                                "name": "GtiStcMemoryWrites",
+                                "units": "messages",
+                                "desc": "The total number of GTI memory writes from Stencil Cache.",
+                                "flags": 2,
+                                "query_counter_sets": [
+                                    {
+                                        "id": 4
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "L3": {
+                        "group_type": 0,
+                        "metrics": [
+                            {
+                                "uri": "gpu0.intel.gti_l3_reads",
+                                "name": "GtiL3Reads",
+                                "units": "messages",
+                                "desc": "The total number of GTI memory reads from L3 (L3 Cache misses).",
+                                "flags": 2,
+                                "query_counter_sets": [
+                                    {
+                                        "id": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.gti_l3_writes",
+                                "name": "GtiL3Writes",
+                                "units": "messages",
+                                "desc": "The total number of GTI memory writes from L3 (L3 invalidations).",
+                                "flags": 2,
+                                "query_counter_sets": [
+                                    {
+                                        "id": 4
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.l30_bank0_active",
+                                "name": "Slice0 L3 Bank0 Active",
+                                "units": "%",
+                                "desc": "The percentage of time in which slice0 L3 bank0 is active",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 8
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.l30_bank0_stalled",
+                                "name": "Slice0 L3 Bank0 Stalled",
+                                "units": "%",
+                                "desc": "The percentage of time in which slice0 L3 bank0 is stalled",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 8
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.l30_bank1_active",
+                                "name": "Slice0 L3 Bank1 Active",
+                                "units": "%",
+                                "desc": "The percentage of time in which slice0 L3 bank1 is active",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 8
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.l30_bank1_stalled",
+                                "name": "Slice0 L3 Bank1 Stalled",
+                                "units": "%",
+                                "desc": "The percentage of time in which slice0 L3 bank1 is stalled",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 8
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.l30_bank2_active",
+                                "name": "Slice0 L3 Bank2 Active",
+                                "units": "%",
+                                "desc": "The percentage of time in which slice0 L3 bank2 is active",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 9
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 9
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.l30_bank2_stalled",
+                                "name": "Slice0 L3 Bank2 Stalled",
+                                "units": "%",
+                                "desc": "The percentage of time in which slice0 L3 bank2 is stalled",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 9
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 9
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.l30_bank3_active",
+                                "name": "Slice0 L3 Bank3 Active",
+                                "units": "%",
+                                "desc": "The percentage of time in which slice0 L3 bank3 is active",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 10
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "uri": "gpu0.intel.l30_bank3_stalled",
+                                "name": "Slice0 L3 Bank3 Stalled",
+                                "units": "%",
+                                "desc": "The percentage of time in which slice0 L3 bank3 is stalled",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 10
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 10
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "Rasterizer": {
+                    "group_type": 0,
+                    "metrics": [
+                        {
+                            "uri": "gpu0.intel.rasterizer0_input_available",
+                            "name": "Slice0 Rasterizer Input Available",
+                            "units": "%",
+                            "desc": "The percentage of time in which slice0 rasterizer input is available",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 11
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 11
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.rasterizer0_output_ready",
+                            "name": "Slice0 Rasterizer Output Ready",
+                            "units": "%",
+                            "desc": "The percentage of time in which slice0 rasterizer output is ready",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 11
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 11
+                                }
+                            ]
+                        }
+                    ],
+                    "Early Depth Test": {
+                        "group_type": 0,
+                        "metrics": [
+                            {
+                                "uri": "gpu0.intel.pixel_data0_ready",
+                                "name": "Slice0 Post-EarlyZ Pixel Data Ready",
+                                "units": "%",
+                                "desc": "The percentage of time in which slice0 post-EarlyZ pixel data is ready (after early Z tests have been applied)",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 11
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 11
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "Sampler": {
+                    "group_type": 0,
+                    "metrics": [
+                        {
+                            "uri": "gpu0.intel.sampler_bottleneck",
+                            "name": "Samplers Bottleneck",
+                            "units": "%",
+                            "desc": "The percentage of time in which samplers have been slowing down the pipe when processing EU requests.",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 0
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 0
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.samplers_busy",
+                            "name": "Samplers Busy",
+                            "units": "%",
+                            "desc": "The percentage of time in which samplers have been processing EU requests.",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 0
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 0
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.sampler00_input_available",
+                            "name": "Slice0 Subslice0 Input Available",
+                            "units": "%",
+                            "desc": "The percentage of time in which slice0 subslice0 sampler input is available",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 12
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 12
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.sampler00_output_ready",
+                            "name": "Slice0 Subslice0 Sampler Output Ready",
+                            "units": "%",
+                            "desc": "The percentage of time in which slice0 subslice0 sampler output is ready",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 12
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 12
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.sampler01_input_available",
+                            "name": "Slice0 Subslice1 Input Available",
+                            "units": "%",
+                            "desc": "The percentage of time in which slice0 subslice1 sampler input is available",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 12
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 12
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.sampler01_output_ready",
+                            "name": "Slice0 Subslice1 Sampler Output Ready",
+                            "units": "%",
+                            "desc": "The percentage of time in which slice0 subslice1 sampler output is ready",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 12
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 12
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.sampler02_input_available",
+                            "name": "Slice0 Subslice2 Input Available",
+                            "units": "%",
+                            "desc": "The percentage of time in which slice0 subslice2 sampler input is available",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 12
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 12
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.sampler02_output_ready",
+                            "name": "Slice0 Subslice2 Sampler Output Ready",
+                            "units": "%",
+                            "desc": "The percentage of time in which slice0 subslice2 sampler output is ready",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 12
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 12
+                                }
+                            ]
+                        }
+                    ],
+                    "Sampler Cache": {
+                        "group_type": 0,
+                        "metrics": [
+                            {
+                                "uri": "gpu0.intel.sampler_l1_misses",
+                                "name": "Sampler Cache Misses",
+                                "units": "messages",
+                                "desc": "The total number of sampler cache misses in all LODs in all sampler units.",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 0
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 0
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Sampler Input": {
+                        "group_type": 0,
+                        "metrics": [
+                            {
+                                "uri": "gpu0.intel.sampler_texels",
+                                "name": "Sampler Texels",
+                                "units": "texels",
+                                "desc": "The total number of texels seen on input (with 2x2 accuracy) in all sampler units.",
+                                "flags": 3,
+                                "application_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 2
+                                    },
+                                    {
+                                        "id": 3
+                                    },
+                                    {
+                                        "id": 4
+                                    },
+                                    {
+                                        "id": 5
+                                    },
+                                    {
+                                        "id": 6
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    }
+                                ],
+                                "query_counter_sets": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 1
+                                    },
+                                    {
+                                        "id": 2
+                                    },
+                                    {
+                                        "id": 3
+                                    },
+                                    {
+                                        "id": 4
+                                    },
+                                    {
+                                        "id": 6
+                                    },
+                                    {
+                                        "id": 7
+                                    },
+                                    {
+                                        "id": 8
+                                    },
+                                    {
+                                        "id": 9
+                                    },
+                                    {
+                                        "id": 10
+                                    },
+                                    {
+                                        "id": 11
+                                    },
+                                    {
+                                        "id": 12
+                                    },
+                                    {
+                                        "id": 13
+                                    },
+                                    {
+                                        "id": 14
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "Stencil Cache": {
+                    "group_type": 0,
+                    "metrics": [
+                        {
+                            "uri": "gpu0.intel.stc_pmastall",
+                            "name": "STC PMA stall",
+                            "units": "%",
+                            "desc": "Percentage of time when stencil cache line and an overlapping pixel are causing stalls",
+                            "flags": 2,
+                            "query_counter_sets": [
+                                {
+                                    "id": 19
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "Thread Dispatcher": {
+                    "group_type": 0,
+                    "metrics": [
+                        {
+                            "uri": "gpu0.intel.non_psthread00_ready_for_dispatch",
+                            "name": "NonPS Thread Ready For Dispatch on Slice0 Subslice0",
+                            "units": "%",
+                            "desc": "The percentage of time in which non-PS thread is ready for dispatch on slice0 subslice0 thread dispatcher",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 13
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 13
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.non_psthread01_ready_for_dispatch",
+                            "name": "NonPS Thread Ready For Dispatch on Slice0 Subslice1",
+                            "units": "%",
+                            "desc": "The percentage of time in which non-PS thread is ready for dispatch on slice0 subslice1 thread dispatcher",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 13
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 13
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.non_psthread02_ready_for_dispatch",
+                            "name": "NonPS Thread Ready For Dispatch on Slice0 Subslice2",
+                            "units": "%",
+                            "desc": "The percentage of time in which non-PS thread is ready for dispatch on slice0 subslice2 thread dispatcher",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 13
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 13
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.psthread00_ready_for_dispatch",
+                            "name": "PS Thread Ready For Dispatch on Slice0 Subslice0",
+                            "units": "%",
+                            "desc": "The percentage of time in which PS thread is ready for dispatch on slice0 subslice0 thread dispatcher",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 13
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 13
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.psthread01_ready_for_dispatch",
+                            "name": "PS Thread Ready For Dispatch on Slice0 Subslice1",
+                            "units": "%",
+                            "desc": "The percentage of time in which PS thread is ready for dispatch on slice0 subslice1 thread dispatcher",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 13
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 13
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.psthread02_ready_for_dispatch",
+                            "name": "PS Thread Ready For Dispatch on Slice0 Subslice2",
+                            "units": "%",
+                            "desc": "The percentage of time in which PS thread is ready for dispatch on slice0 subslice2 thread dispatcher",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 13
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 13
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.thread_header00_ready_port0",
+                            "name": "Thread Header Ready on Slice0 Subslice0 Port 0",
+                            "units": "%",
+                            "desc": "The percentage of time in which thread header is ready on slice0 subslice0 thread dispatcher port 0",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 14
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 14
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.thread_header00_ready_port1",
+                            "name": "Thread Header Ready on Slice0 Subslice0 Port 1",
+                            "units": "%",
+                            "desc": "The percentage of time in which thread header is ready on slice0 subslice0 thread dispatcher port 1",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 14
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 14
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.thread_header01_ready_port0",
+                            "name": "Thread Header Ready on Slice0 Subslice1 Port 0",
+                            "units": "%",
+                            "desc": "The percentage of time in which thread header is ready on slice0 subslice1 thread dispatcher port 0",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 14
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 14
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.thread_header01_ready_port1",
+                            "name": "Thread Header Ready on Slice0 Subslice1 Port 1",
+                            "units": "%",
+                            "desc": "The percentage of time in which thread header is ready on slice0 subslice1 thread dispatcher port 1",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 14
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 14
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.thread_header02_ready_port0",
+                            "name": "Thread Header Ready on Slice0 Subslice2 Port 0",
+                            "units": "%",
+                            "desc": "The percentage of time in which thread header is ready on slice0 subslice2 thread dispatcher port 0",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 14
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 14
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "gpu0.intel.thread_header02_ready_port1",
+                            "name": "Thread Header Ready on Slice0 Subslice2 Port 1",
+                            "units": "%",
+                            "desc": "The percentage of time in which thread header is ready on slice0 subslice2 thread dispatcher port 1",
+                            "flags": 3,
+                            "application_counter_sets": [
+                                {
+                                    "id": 14
+                                }
+                            ],
+                            "query_counter_sets": [
+                                {
+                                    "id": 14
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "VME Pipe": {
+                    "group_type": 0,
+                    "metrics": [
+                        {
+                            "uri": "gpu0.intel.vmebusy",
+                            "name": "VME Busy",
+                            "units": "%",
+                            "desc": "The percentage of time in which VME (IME or CRE) was actively processing data.",
+                            "flags": 1,
+                            "application_counter_sets": [
+                                {
+                                    "id": 16
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "Graphics API": {
+                "group_type": 0,
+                "metrics": [
+                    {
+                        "uri": "dx.draw_calls",
+                        "name": "Draw Calls",
+                        "units": "",
+                        "desc": "Number of draw calls",
+                        "flags": 2
+                    },
+                    {
+                        "uri": "dx.frame_rate",
+                        "name": "FPS",
+                        "units": "",
+                        "desc": "Frame Rate",
+                        "flags": 2
+                    },
+                    {
+                        "uri": "dx.frame_number",
+                        "name": "Frame Number",
+                        "units": "",
+                        "desc": "Frame Number",
+                        "flags": 2
+                    },
+                    {
+                        "uri": "dx.frame_time",
+                        "name": "Frame Time",
+                        "units": "us",
+                        "desc": "The time elapsed between two subsequent SwapBuffer calls",
+                        "show_in_hud_order": 3,
+                        "flags": 2
+                    },
+                    {
+                        "uri": "gfx.elapsed_time",
+                        "name": "GPU Time Elapsed",
+                        "units": "us",
+                        "desc": "GPU Time Elapsed in microseconds",
+                        "flags": 2
+                    }
+                ],
+                "DirectX": {
+                    "group_type": 0,
+                    "metrics": [
+                        {
+                            "uri": "dx.set_render_target",
+                            "name": "RT Changes",
+                            "units": "",
+                            "desc": "Number of SetRenderTargets calls",
+                            "flags": 2
+                        },
+                        {
+                            "uri": "dx.create_shader",
+                            "name": "Shader Creations",
+                            "units": "",
+                            "desc": "Number of CreateShader calls",
+                            "flags": 2
+                        },
+                        {
+                            "uri": "dx.state_block_apply",
+                            "name": "State Block Applies",
+                            "units": "",
+                            "desc": "Number of Apply calls",
+                            "flags": 2
+                        },
+                        {
+                            "uri": "dx.state_block_capture",
+                            "name": "State Block Captures",
+                            "units": "",
+                            "desc": "Number of Capture calls",
+                            "flags": 2
+                        },
+                        {
+                            "uri": "dx.state_changes",
+                            "name": "State Changes",
+                            "units": "",
+                            "desc": "Number of DX state calls",
+                            "flags": 2
+                        },
+                        {
+                            "uri": "dx.create_texture",
+                            "name": "Texture Creations",
+                            "units": "",
+                            "desc": "Number of CreateTexture calls",
+                            "flags": 2
+                        }
+                    ],
+                    "DirectX 10-11": {
+                        "group_type": 0,
+                        "metrics": [
+                            {
+                                "uri": "dx.create_buffer",
+                                "name": "Buffer Creations",
+                                "units": "",
+                                "desc": "Number of CreateBuffer calls",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.buffer_map",
+                                "name": "Buffer Maps",
+                                "units": "",
+                                "desc": "Number of DX Buffer maps",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.dx_maps",
+                                "name": "Maps",
+                                "units": "",
+                                "desc": "Number of DX maps"
+                            },
+                            {
+                                "uri": "dx.render_target_clear",
+                                "name": "RT Clears",
+                                "units": "",
+                                "desc": "Number of ClearRenderTargetView calls",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.copy_resource",
+                                "name": "Resource Copies",
+                                "units": "",
+                                "desc": "Number of CopyResource calls",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.resource_creations",
+                                "name": "Resource Creations",
+                                "units": "",
+                                "desc": "Number of Direct3D resources creations"
+                            },
+                            {
+                                "uri": "dx.copy_subresource",
+                                "name": "Subresource Copies",
+                                "units": "",
+                                "desc": "Number of CopySubresource calls",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.update_subresource",
+                                "name": "Subresource Updates",
+                                "units": "",
+                                "desc": "Number of UpdateSubresource calls",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.1d_texture_map",
+                                "name": "Texture1D Maps",
+                                "units": "",
+                                "desc": "Number of 1D Texture maps",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.2d_texture_map",
+                                "name": "Texture2D Maps",
+                                "units": "",
+                                "desc": "Number of 2D Texture maps",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.3d_texture_map",
+                                "name": "Texture3D Maps",
+                                "units": "",
+                                "desc": "Number of 3D Texture maps",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.depth_stencil_clear",
+                                "name": "Z/Stencil Clears",
+                                "units": "",
+                                "desc": "Number of ClearDepthStencilView calls",
+                                "flags": 2
+                            }
+                        ]
+                    },
+                    "DirectX 9": {
+                        "group_type": 0,
+                        "metrics": [
+                            {
+                                "uri": "dx.clear",
+                                "name": "Clears",
+                                "units": "",
+                                "desc": "Number of IDirect3DDevice9::Clear calls",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.color_fill",
+                                "name": "Color Fills",
+                                "units": "",
+                                "desc": "Number of IDirect3DDevice9::ColorFill calls",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.create_indexbuffer",
+                                "name": "IB Creations",
+                                "units": "",
+                                "desc": "Number of IDirect3DDevice9::CreateIndexBuffer calls",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.ib_locks_time",
+                                "name": "IB Lock Time",
+                                "units": "us",
+                                "desc": "Time spent in DX index buffer locks (microseconds)",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.ib_locks",
+                                "name": "IB Locks",
+                                "units": "",
+                                "desc": "Number of DX index buffer locks",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.dx_locks_time",
+                                "name": "Lock Time",
+                                "units": "us",
+                                "desc": "Time spent in DX lock calls"
+                            },
+                            {
+                                "uri": "dx.dx_locks",
+                                "name": "Locks",
+                                "units": "",
+                                "desc": "Number of DX locks"
+                            },
+                            {
+                                "uri": "dx.get_rendertarget_data",
+                                "name": "RT Data Gets",
+                                "units": "",
+                                "desc": "Number of IDirect3DDevice9::GetRenderTargetData calls",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.dx9_resource_creations",
+                                "name": "Resource Creations",
+                                "units": "",
+                                "desc": "Number of Direct3D9 resources creations"
+                            },
+                            {
+                                "uri": "dx.stretch_rect",
+                                "name": "Stretch Rects",
+                                "units": "",
+                                "desc": "Number of IDirect3DDevice9::StretchRect calls",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.create_surface",
+                                "name": "Surface Creations",
+                                "units": "",
+                                "desc": "Number of IDirect3DDevice9::CreateSurface calls",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.surface_locks_time",
+                                "name": "Surface Lock Time",
+                                "units": "us",
+                                "desc": "Time spent in DX surface locks (microseconds)",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.surface_locks",
+                                "name": "Surface Locks",
+                                "units": "",
+                                "desc": "Number of DX surface resource locks",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.surface_update",
+                                "name": "Surface Updates",
+                                "units": "",
+                                "desc": "Number of IDirect3DDevice9::UpdateSurface calls",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.create_vertexbuffer",
+                                "name": "VB Creations",
+                                "units": "",
+                                "desc": "Number of IDirect3DDevice9::CreateVertexBuffer calls",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.vb_locks_time",
+                                "name": "VB Lock Time",
+                                "units": "us",
+                                "desc": "Time spent in DX vertex buffer locks (microseconds)",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.vb_locks",
+                                "name": "VB Locks",
+                                "units": "",
+                                "desc": "Number of DX vertex buffer locks",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.volume_locks_time",
+                                "name": "Volume Lock Time",
+                                "units": "us",
+                                "desc": "Time spent in DX volume locks (microseconds)",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.volume_locks",
+                                "name": "Volume Locks",
+                                "units": "",
+                                "desc": "Number of DX volume resource locks",
+                                "flags": 2
+                            }
+                        ]
+                    }
+                },
+                "OpenGL": {
+                    "group_type": 0,
+                    "metrics": [
+                        {
+                            "uri": "dx.create_buffers",
+                            "name": "Buffer Creations",
+                            "units": "",
+                            "desc": "Number of Buffer Creations",
+                            "flags": 2
+                        },
+                        {
+                            "uri": "dx.get_error",
+                            "name": "Error Gets",
+                            "units": "",
+                            "desc": "Number of glGetError Calls",
+                            "flags": 2
+                        },
+                        {
+                            "uri": "dx.indexed_draw_calls",
+                            "name": "Indexed Draw Calls",
+                            "units": "",
+                            "desc": "Number of Indexed Draw Calls",
+                            "flags": 2
+                        },
+                        {
+                            "uri": "dx.indexed_vertex_count",
+                            "name": "Indexed Vertex Count",
+                            "units": "",
+                            "desc": "Number of Indexed Vertices",
+                            "flags": 2
+                        },
+                        {
+                            "uri": "dx.clears",
+                            "name": "RT Clears",
+                            "units": "",
+                            "desc": "Number of Clear Calls",
+                            "flags": 2
+                        },
+                        {
+                            "uri": "dx.vertex_count",
+                            "name": "Vertex Count",
+                            "units": "",
+                            "desc": "Number of Vertices",
+                            "flags": 2
+                        }
+                    ],
+                    "State Metrics": {
+                        "group_type": 0,
+                        "metrics": [
+                            {
+                                "uri": "dx.bound_buffer_count",
+                                "name": "BindBuffer Calls",
+                                "units": "",
+                                "desc": "Number of Buffers Bound",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.bound_texture_count",
+                                "name": "BindTexture Calls",
+                                "units": "",
+                                "desc": "Number of Textures Bound",
+                                "flags": 2
+                            },
+                            {
+                                "uri": "dx.used_program_count",
+                                "name": "UseProgram Calls",
+                                "units": "",
+                                "desc": "Number of Programs Bound",
+                                "flags": 2
+                            }
+                        ]
+                    }
+                },
+                "Pipeline Statistics": {
+                    "group_type": 0,
+                    "metrics": [
+                        {
+                            "uri": "gfx.cs_invocation_count",
+                            "name": "CS Invocations",
+                            "units": "",
+                            "desc": "The number of times a compute shader was invoked.",
+                            "flags": 2
+                        },
+                        {
+                            "uri": "gfx.clip_invocation_count",
+                            "name": "Clipper Invocations",
+                            "units": "",
+                            "desc": "The number of primitives sent to the Clipper.",
+                            "flags": 2
+                        },
+                        {
+                            "uri": "gfx.ds_invocation_count",
+                            "name": "DS Invocations",
+                            "units": "",
+                            "desc": "The number of times a domain shader was invoked.",
+                            "flags": 2
+                        },
+                        {
+                            "uri": "gfx.gs_invocation_count",
+                            "name": "GS Invocations",
+                            "units": "",
+                            "desc": "The number of times a geometry shader was invoked (as per DX documentation).",
+                            "flags": 2
+                        },
+                        {
+                            "uri": "gfx.hs_invocation_count",
+                            "name": "HS Invocations",
+                            "units": "",
+                            "desc": "The number of times a hull shader was invoked.",
+                            "flags": 2
+                        },
+                        {
+                            "uri": "gfx.wm_ps_invocation_count",
+                            "name": "PS Invocations",
+                            "units": "",
+                            "desc": "The number of times a pixel shader was invoked. Direct3D invokes a pixel shader once per pixel (as per DX documentation).",
+                            "flags": 2
+                        },
+                        {
+                            "uri": "gfx.wm_ps_depth_count",
+                            "name": "Pixels Rendered",
+                            "units": "",
+                            "desc": "The number of pixels that passed z-testing. Note: not all rendered pixels are necessarily written to render targets.",
+                            "flags": 2
+                        },
+                        {
+                            "uri": "gfx.clip_primitives_count",
+                            "name": "Post-Clip Primitives",
+                            "units": "",
+                            "desc": "The number of primitives that flowed out of the Clipper.",
+                            "flags": 2
+                        },
+                        {
+                            "uri": "gfx.gs_primitives_count",
+                            "name": "Post-GS Primitives",
+                            "units": "",
+                            "desc": "The number of primitives that flowed through from GS to the clipper if GS was enabled.",
+                            "flags": 2
+                        },
+                        {
+                            "uri": "gfx.vf_ia_primitives_count",
+                            "name": "Primitive Count",
+                            "units": "",
+                            "desc": "The number of rendering primitives assembled and put into the input assembly stage of the pipeline.",
+                            "flags": 2
+                        },
+                        {
+                            "uri": "gfx.vs_invocation_count",
+                            "name": "VS Invocations",
+                            "units": "",
+                            "desc": "The number of times a vertex shader was invoked. Direct3D invokes the vertex shader once per vertex (as per DX documentation).",
+                            "flags": 2
+                        },
+                        {
+                            "uri": "gfx.vf_ia_vertices_count",
+                            "name": "Vertex Count",
+                            "units": "",
+                            "desc": "The number of vertices that entered the pipeline.",
+                            "flags": 2
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "triggers_settings": [
+        {
+            "condition": "cpu.processor_time >= 95 && gfx.vs_invocation_count + gfx.wm_ps_invocation_count >= 1000",
+            "trigger_action": 0,
+            "post_trigger_action": 0,
+            "retrigger_delay_sec": 60,
+            "enabled": false
+        },
+        {
+            "condition": "gfx.clip_primitives_count/max(gfx.vf_ia_primitives_count,1) < 0.5 && !(dx.frame_number == 0 || dx.frame_number == 42)",
+            "trigger_action": 0,
+            "post_trigger_action": 0,
+            "retrigger_delay_sec": 60,
+            "enabled": false
+        }
+    ],
+    "tracing_settings": {
+        "capture_application_startup": false,
+        "trace_duration": 5,
+        "capture_gpu_context": false,
+        "capture_parallel_execution": false,
+        "trace_system_view": true,
+        "tracing_domains": {
+            "GPA Domains": {
+                "domains": [
+                    {
+                        "name": "Graphics API",
+                        "enabled": true
+                    },
+                    {
+                        "name": "ID3DUserDefinedAnnotation",
+                        "enabled": true
+                    },
+                    {
+                        "name": "ID3D11DeviceContext2 Events",
+                        "enabled": false
+                    },
+                    {
+                        "name": "WinPixEventsRuntime",
+                        "enabled": true
+                    },
+                    {
+                        "name": "OpenGL debug output",
+                        "enabled": true
+                    },
+                    {
+                        "name": "OpenCL API",
+                        "enabled": true
+                    },
+                    {
+                        "name": "Metrics",
+                        "enabled": true
+                    }
+                ]
+            }
+        },
+        "tracing_providers": [
+            {
+                "name": "Microsoft-Windows-DxgKrnl",
+                "enabled": true,
+                "mask": 34883
+            }
+        ]
+    },
+    "stream_capture_settings": {
+        "screenshot_layer_enabled_by_frames": false,
+        "screenshot_layer_enabled_by_msec": true,
+        "screenshot_range_stride_in_frames": 100,
+        "screenshot_range_stride_in_msec": 5000,
+        "deferred_stream_capture": false,
+        "key_framing_time": false,
+        "key_interval": 4.0,
+        "key_framing_input": false,
+        "hud_layer": true,
+        "metrics_layer": true,
+        "override_layer": false
+    },
+    "frame_capture_settings": {
+        "gl_frame_delimiters": [
+            {
+                "name": "SwapBuffers",
+                "enabled": true
+            },
+            {
+                "name": "SetCurrentContext",
+                "enabled": false
+            },
+            {
+                "name": "glBlitFramebuffer",
+                "enabled": false
+            },
+            {
+                "name": "glClear",
+                "enabled": false
+            },
+            {
+                "name": "glFinish",
+                "enabled": false
+            },
+            {
+                "name": "glFlush",
+                "enabled": false
+            }
+        ],
+        "gl_delimeter_value": 0,
+        "dx12_frame_delimiters": [
+            {
+                "name": "Present",
+                "enabled": true
+            },
+            {
+                "name": "ExecuteCommandList",
+                "enabled": false
+            }
+        ],
+        "frame_count_to_capture": 1,
+        "dx12_delimeter_value": 0
+    },
+    "synthetic_metrics_settings": []
+}
