@@ -1,0 +1,867 @@
+{
+    "applications": [
+        {
+            "app_name": "System View",
+            "sources": [
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 16334820424238140500,
+                        "primary_id": 3048,
+                        "secondary_id": 386375427714604339
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 567423968125918758
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 636388087537744818
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 2179701248929632688
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 2907331442596858547
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 3095932132841153182
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 16334820424238140500,
+                        "primary_id": 3048,
+                        "secondary_id": 3717517982699475750
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 3937665677323144852
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 3937666776834773063
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 3958758182435724323
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 4060750055156577131
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 4286345337553910620
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 16334820424238140500,
+                        "primary_id": 3048,
+                        "secondary_id": 4661966541600450974
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 16334820424238140500,
+                        "primary_id": 3048,
+                        "secondary_id": 5065623632004643154
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 16334820424238140500,
+                        "primary_id": 3048,
+                        "secondary_id": 5112191524317155225
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 16334820424238140500,
+                        "primary_id": 3048,
+                        "secondary_id": 5140982025319528179
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 5507559600525600755
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 5578010474551965161
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 16334820424238140500,
+                        "primary_id": 3048,
+                        "secondary_id": 6204291366015654614
+                    },
+                    "selected": true
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 6497418099422097136
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 6857310269873721473
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 7226761486864304573
+                    },
+                    "selected": true
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 7285074881052430594
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 16334820424238140500,
+                        "primary_id": 3048,
+                        "secondary_id": 7312907040972091151
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 7391265150462525710
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 7412295378038026170
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 7679956972395719608
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 7872475225989919648
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 16334820424238140500,
+                        "primary_id": 3048,
+                        "secondary_id": 8106322417493582688
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 8190182339181859776
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 8496914953992601532
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 8522316746776249228
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 8758202697673566110
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 9028317166789124259
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 9083515129624150834
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 9375185825772525384
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 9375186925284153595
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 9699691404937068477
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 16334820424238140500,
+                        "primary_id": 3048,
+                        "secondary_id": 9700664444387705920
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 9755962576604775953
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 9844900606366788575
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 10077453773769268042
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 10330640756792185958
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 10342145927012412617
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 10733404083654611361
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 11420127616846095372
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 11436379135344572565
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 11480669685219255501
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 11660197943196204333
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 11876820231741483026
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 12002785030597685853
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 12281293553999668741
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 12326549225187159079
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 12717823451780771022
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 12821181134054820254
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 12892722019920760204
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 13432471850457062199
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 16334820424238140500,
+                        "primary_id": 3048,
+                        "secondary_id": 13727225103494979493
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 13794457566422208834
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 13885924995781412539
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 16334820424238140500,
+                        "primary_id": 3048,
+                        "secondary_id": 13999115959306097287
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 14301356952303887513
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 14305464240055503226
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 14674759770606932792
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 14687201306331104337
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 14720008604862411608
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 14720124827131464114
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 14863094366198769663
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 15131754203606026801
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 15313996963609747682
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 15752359716221469685
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 15863431998001651630
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 15863433097513279841
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 16191317282168587444
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 16334820424238140500,
+                        "primary_id": 3048,
+                        "secondary_id": 16387394445992030084
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 16705662659306258396
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 17139305221487333241
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 17729133143365659893
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 17953428079721410830
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 18212587842060778956
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 18319834134833025043
+                    },
+                    "selected": false
+                },
+                {
+                    "source_id": {
+                        "type": 6,
+                        "system_hash": 15798351738797134714,
+                        "gpu_hash": 5605688026583828261,
+                        "primary_id": 3048,
+                        "secondary_id": 18374445234607312172
+                    },
+                    "selected": false
+                }
+            ],
+            "tracks": [
+                {
+                    "sources": [
+                        {
+                            "type": 6,
+                            "system_hash": 15798351738797134714,
+                            "gpu_hash": 16334820424238140500,
+                            "primary_id": 3048,
+                            "secondary_id": 6204291366015654614
+                        }
+                    ],
+                    "visible_levels": 1,
+                    "sort_index": 0,
+                    "level_height_multiplier": 1.0,
+                    "metric_mode": 1,
+                    "metric_auto_scale": false,
+                    "metric_scale_multiplier": 1.0,
+                    "metric_show_event_name_on_hover": false
+                },
+                {
+                    "sources": [
+                        {
+                            "type": 6,
+                            "system_hash": 15798351738797134714,
+                            "gpu_hash": 5605688026583828261,
+                            "primary_id": 3048,
+                            "secondary_id": 7226761486864304573
+                        }
+                    ],
+                    "visible_levels": 1,
+                    "sort_index": 1,
+                    "level_height_multiplier": 1.0,
+                    "metric_mode": 1,
+                    "metric_auto_scale": false,
+                    "metric_scale_multiplier": 1.0,
+                    "metric_show_event_name_on_hover": false
+                }
+            ]
+        }
+    ]
+}
